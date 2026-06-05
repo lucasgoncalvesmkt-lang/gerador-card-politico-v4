@@ -5,6 +5,9 @@ from rembg import remove
 from PIL import Image
 import io
 
+session = new_session("u2netp")
+
+
 app = FastAPI(title="Rembg API - Gerador de Card")
 
 app.add_middleware(
@@ -29,5 +32,5 @@ async def remove_bg(file: UploadFile = File(...)):
     image = Image.open(io.BytesIO(data)).convert("RGBA")
     buffer = io.BytesIO()
     image.save(buffer, format="PNG")
-    output = remove(buffer.getvalue())
+    output = remove(buffer.getvalue(), session=session)
     return Response(content=output, media_type="image/png")
