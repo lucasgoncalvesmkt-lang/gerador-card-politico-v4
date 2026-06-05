@@ -1,11 +1,13 @@
 
 from fastapi import FastAPI, UploadFile, File, Response
 from fastapi.middleware.cors import CORSMiddleware
-from rembg import remove
+from rembg import remove, new_session
 from PIL import Image
 import io
 
 session = new_session("u2netp")
+
+
 
 
 app = FastAPI(title="Rembg API - Gerador de Card")
