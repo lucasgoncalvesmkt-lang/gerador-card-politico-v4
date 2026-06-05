@@ -1,0 +1,21 @@
+COMO USAR OS 33 MODELOS
+
+Cada modelo fica em:
+web/public/templates/NOME-DO-MODELO/
+
+Dentro de cada pasta, coloque:
+- fundo.png
+- politicos.png
+
+Exemplo:
+web/public/templates/afonso-florence/fundo.png
+web/public/templates/afonso-florence/politicos.png
+
+A lista e os ajustes ficam em:
+web/app/models.ts
+
+Você pode ajustar cada modelo:
+width: largura do apoiador
+height: altura do apoiador
+left: posição horizontal
+top: posição vertical
