@@ -19,6 +19,10 @@ app.add_middleware(
 def health():
     return {"status": "ok"}
 
+@app.head("/")
+def health_head():
+    return Response(status_code=200)    
+
 @app.post("/remove-bg")
 async def remove_bg(file: UploadFile = File(...)):
     data = await file.read()
