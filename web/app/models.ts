@@ -40,16 +40,6 @@ export const models = [
     }
   },
   {
-    "name": "Arthur Maia",
-    "slug": "arthur-maia",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
     "name": "Bacelar",
     "slug": "bacelar",
     "supporter": {
@@ -92,16 +82,6 @@ export const models = [
   {
     "name": "Deivid Bacelar",
     "slug": "deivid-bacelar",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Duda Sanches",
-    "slug": "duda-sanches",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -202,16 +182,6 @@ export const models = [
   {
     "name": "Lucas Reis",
     "slug": "lucas-reis",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Manoel Rocha",
-    "slug": "manoel-rocha",
     "supporter": {
       "width": 375,
       "height": 390,
