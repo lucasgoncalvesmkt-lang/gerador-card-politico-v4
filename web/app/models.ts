@@ -50,26 +50,6 @@ export const models = [
     }
   },
   {
-    "name": "Cajado",
-    "slug": "cajado",
-    "supporter": {
-     "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Daniel Alencar",
-    "slug": "daniel-alencar",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
     "name": "Daniel Almeida",
     "slug": "daniel-almeida",
     "supporter": {
@@ -80,8 +60,8 @@ export const models = [
     }
   },
   {
-    "name": "Deivid Bacelar",
-    "slug": "deivid-bacelar",
+    "name": "Deyvid Bacelar",
+    "slug": "deyvid-bacelar",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -90,8 +70,8 @@ export const models = [
     }
   },
   {
-    "name": "Elisangela",
-    "slug": "elisangela",
+    "name": "Elisângela Araújo",
+    "slug": "elisangela-araujo",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -120,8 +100,8 @@ export const models = [
     }
   },
   {
-    "name": "Jaime Vieira Filho",
-    "slug": "jaime-vieira-filho",
+    "name": "Jayme Vieira Filho",
+    "slug": "jayme-vieira-filho",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -130,7 +110,7 @@ export const models = [
     }
   },
   {
-    "name": "Jonga",
+    "name": "João Bacelar (Jonga)",
     "slug": "jonga",
     "supporter": {
       "width": 375,
@@ -152,16 +132,6 @@ export const models = [
   {
     "name": "Joseildo Ramos",
     "slug": "joseildo-ramos",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Kátia da Saúde",
-    "slug": "katia-da-saude",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -200,8 +170,8 @@ export const models = [
     }
   },
   {
-    "name": "Neto Carleto",
-    "slug": "neto-carleto",
+    "name": "Neto Carletto",
+    "slug": "neto-carletto",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -212,16 +182,6 @@ export const models = [
   {
     "name": "Olívia Santana",
     "slug": "olivia-santana",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Paulo Magalhães",
-    "slug": "paulo-magalhaes",
     "supporter": {
       "width": 375,
       "height": 390,
@@ -260,28 +220,8 @@ export const models = [
     }
   },
   {
-    "name": "Valéria",
-    "slug": "valeria",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
     "name": "Valmir Assunção",
     "slug": "valmir-assuncao",
-    "supporter": {
-      "width": 375,
-      "height": 390,
-      "left": 620,
-      "top": 630
-    }
-  },
-  {
-    "name": "Waldenor",
-    "slug": "waldenor",
     "supporter": {
       "width": 375,
       "height": 390,
